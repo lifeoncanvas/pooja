@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+.body{
+	margin:0;
+	padding:0;
+	
+    background-color: #eaeffa;
+    margin:0;
+	padding:0;
+	}
+
+	
+	
+
+	
+	
+
+	.center {
+       	display: flex;
+  	justify-content: center;
+		width:97.4vw;
+		background-color: #eaeffa;
+        padding-top:10px;
+        /* padding-right: 60px; */
+        padding-bottom: 20px;
+        /* padding-left:400px; */
+	   }
+	   .center img{
+		   margin-right:20 rem;
+	   }
+
+	.topbar{
+	padding-left:33%;
+	overflow: hidden;
+	font-family: 'Bree Serif', serif;
+	
+}
+    
+	.topmenu{
+        float: left;
+  	color: #555555;
+	 text-align: center;
+	 cursor: pointer;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+	 font-size: 20px;
+}
+.topmenu:hover{
+	background-color: #eaeffa;
+	border-radius: 45%;
+	padding: 1rem;
+}
+
+/* about us */
+
+.about-us{
+   
+    display: flex;
+	background-color: #eaeffa;
+}
+
+.about-us-content{
+    flex:0 1 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    box-sizing: border-box;
+}
+.about-us-heading{
+    font-size: 4rem;
+    font-weight: 300;
+   
+   
+
+   
+}
+
+
+.big-underline{
+    height:.1rem;
+    width: 20rem;
+    background-color: #756477;
+
+}
+
+
+
+
+.sub-heading{
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    color:#756477;
+}
+
+.about-us-paragraph{
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    line-height: 2.6rem;
+	margin-bottom: 5rem;
+	width: 30rem;
+}
+
+
+.quote{
+	
+		font-size: 1.6rem;
+		font-style: italic;
+		font-weight: 300;
+		text-align: center;
+		margin-left: 3rem;
+		line-height: 2.6rem;
+		margin-bottom: 5rem;
+		width: 20rem;
+	
+}
+
+
+.about-us-btn:hover{
+     margin-left: 1.5rem;
+     transition: margin-left .4s;
+}
+
+
+
+.image{
+	margin-top: 10rem;
+
+    width: 25rem;
+	height: 25rem;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,.4);
+    border-radius: 45rem;
+    border: .2rem solid #756477;
+
+}
+
+ /* what we do */
+ .fixed-bg {
+	background-image: url("marble2.jpg");
+ 	height: 1000px;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	margin:0;
+	padding:0;
+	font-family:Ibarra Real Nova,serif;
+	}
+
+	.bg-text{
+	color: black;
+	font-size: 80px;
+  	position:relative;
+  	top:45%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: 2;
+  	width: 500px;
+  	padding: 20px;
+  	text-align: center;
+	}
+
+	.bg-text p{
+		font-style: italic;
+	}
+
+	
+	.maintext{
+	background-color:blue;
+	}
+
+	.button {
+ 	background-color: white;
+  	border: none;
+  	color: black;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	}
+ /* end of what we do */
+
+
+ /* card */
+ .gallery{
+    max-width:100rem;
+    margin-left: 6rem;
+
+}
+
+.image-wrapper{
+   
+    width: 21rem;
+    height: 17rem;
+    margin: 1.4rem;
+    overflow: hidden;
+}
+
+.footer-image{
+    width: 100%;
+    transition: all .5s;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.gallery-images{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-image:hover{
+    transform: scale(1.3);
+    opacity: .8;
+}
+
+
+
+/* end of card */
+/* footer */
+.footer{
+	background-color: #eaeffa;
+}
+/* end of footer */
+
+@media(max-width:1200px){
+    .about-us{
+        flex-direction: column;
+        padding-bottom: 25rem;
+    }
+    .gallery-main{
+        flex-direction: column;
+        
+    }
+    .about-us-content{
+        margin-bottom: 13rem;
+    }
+
+    .image{
+       width:25rem;
+    }
+}
+@media(max-width:750px){
+
+    .footer-list{
+        display: block;
+
+    }
+
+}
+@media(max-width:900px){
+	.about-us-heading{
+		font-size: 3rem;
+		text-align: center;
+		width: 20rem;
+	}
+ 
+	 .about-us-paragraph{
+		 padding: 0;
+		 width: 20rem;
+		
+	 }
+	.image{
+		width: 15rem;
+	}
+ 
+	.about-us-images{
+		margin-top: -30rem;
+	}
+	.footer-input{
+		width: 20rem;
+	}
+   
+	.gallery{
+	 max-width: 100rem;
+   
+	 margin-left: 2rem;
+	 
+ 
+ }
+   .image-wrapper{
+	 width: 12rem;
+ }
+ 
+ .bg-text{
+	 font-size: 4rem;
+ }
+ .bg-text p{
+	 font-size: 1.4rem;
+	 width: 15rem;
+	 margin-left: 7rem;
+ }
+ 
+ .about-us-images{
+	 margin-left: 3.4rem;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+	}
+
+.quote{
+	margin-left: -2.5rem;
+	margin-bottom:-2 rem;
+}
+	 
+.gallery{
+    max-width:100rem;
+   
+
+}
+
+.image-wrapper{
+   
+    width: 25rem;
+    height: auto;
+    margin: 1.4rem;
+    overflow: hidden;
+}
+ 
+}
